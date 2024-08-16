@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Lair</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#welcome">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#latest-blog">Blog</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="welcome">
+        <div class="code-rain"></div>
+        <div class="welcome-text">
+            <h1>Welcome to My Digital Lair</h1>
+            <p>_Hack the planet_</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me">
+        <div class="about-content">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="bio">
+                <div class="terminal">
+                    <p> >_ Hello, I'm Riasaat</p>
+                    <p> >_ A stuednt who is highly interested in cyber sec and programming.</p>
+                </div>
+                <div class="skills">
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 73%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wifi pentesting</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Red teaming</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Blog Section -->
+    <section id="latest-blog">
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-grid">
+            <div class="blog-post">
+                <div class="file-icon">.ntg</div>
+                <h3>COMING SOON...</h3>
+                <p>NEW BLOG COMING SOON...</p>
+            </div>
+            <div class="blog-post">
+                <div class="file-icon">.sn</div>
+                <h3>COMING SOON...</h3>
+                <p>NEW BLOG COMING SOON...</p>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact-me">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <div id="social-links">
+            <a href="https://github.com/GAMERIASAAT" target="_blank">GitHub</a>
+            <a href="https://www.facebook.com/riasaat.binraihan/" target="_blank">Facebook</a>
+        </div>
+    </section>
+</body>
+</html>
